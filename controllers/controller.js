@@ -1,7 +1,7 @@
 const { Users } = require('../models/user');
 const bcrypt = require('bcrypt');
 
-exports.home = (req, res) => res.send('hello world 좆까');
+exports.home = (req, res) => res.send('hello world');
 
 exports.register = (req, res) => {
     //회원가입에 필요한 Client를 가져오면 USER에 넣어준다.
